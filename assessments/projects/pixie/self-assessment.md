@@ -82,7 +82,7 @@ Pixie was accepted as a CNCF sandbox project in June 2021. Since our inclusion i
 
 **Vizier (Data Plane)**
 
-Vizier is responsible for collecting and processing data in a Kubernetes cluster. 
+Vizier is responsible fdsfsdfsdfor collecting and processing data in a Kubernetes cluster. 
 
 One Vizier should be deployed per each cluster which needs to be monitored. If one or more Viziers are deployed to a cluster, the first/original deployment of Vizier will stay connected to the control plane and continue running properly. Any Viziers deployed afterward will fail to connect to the control plane, as the Kubernetes cluster’s UID is already associated with the original Vizier. However, even if the second Vizier instance were able to connect to the control plane, multiple instances of Vizier in a cluster would not affect other instances. Users would just collect the same data per Vizier instance.
 
